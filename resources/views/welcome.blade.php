@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,12 +10,26 @@
 </head>
 
 <body>
-    <h1>Este es un h1</h1>
-    <h2>Este es un h2</h2>
-    <h3>Este es un h3</h3>
-    <h4>Este es un h4</h4>
-    <h5>Este es un h5</h5>
-    <h6>Este es un h6</h6>
+    <div class="container">
+        {{-- <div class="grid grid-cols-4 grid-row-2 gap-4">
+            <div class="bg-blue-100">a</div>
+            <div class="bg-blue-200">b</div>
+            <div class="bg-blue-400 col-span-2 row-span-2">c</div>
+            <div class="bg-blue-500">d</div>
+            <div class="bg-blue-600">e</div>
+        </div> --}}
+        <div class="grid grid-flow-col grid-rows-3 grid-cols-4">
+            <div class="bg-blue-100">1</div>
+            <div class="bg-blue-200">2</div>
+            <div class="bg-blue-300">3</div>
+            <div class="bg-blue-400">4</div>
+            <div class="bg-blue-500">5</div>
+            <div class="bg-blue-600">6</div>
+            <div class="bg-blue-700">7</div>
+            <div class="bg-blue-800">8</div>
+            <div class="bg-blue-900">9</div>
+        </div>
+    </div>
 </body>
 
 </html>
